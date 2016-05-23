@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		958B52FF1CF2FDC000E38EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B52FE1CF2FDC000E38EFB /* main.m */; };
 		958B53021CF2FDC000E38EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B53011CF2FDC000E38EFB /* AppDelegate.m */; };
-		958B53051CF2FDC000E38EFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B53041CF2FDC000E38EFB /* ViewController.m */; };
 		958B53081CF2FDC000E38EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958B53061CF2FDC000E38EFB /* Main.storyboard */; };
 		958B530A1CF2FDC000E38EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958B53091CF2FDC000E38EFB /* Assets.xcassets */; };
 		958B530D1CF2FDC000E38EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958B530B1CF2FDC000E38EFB /* LaunchScreen.storyboard */; };
+		958B53161CF3298500E38EFB /* CellularObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B53151CF3298500E38EFB /* CellularObject.m */; };
+		958B53191CF329CA00E38EFB /* CellularTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B53181CF329CA00E38EFB /* CellularTableVC.m */; };
+		958B531C1CF32B7800E38EFB /* CellWithSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B531B1CF32B7800E38EFB /* CellWithSwitchView.m */; };
+		958B53221CF32DEC00E38EFB /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B53211CF32DEC00E38EFB /* Storage.m */; };
+		958B53291CF33DE400E38EFB /* CellWithIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 958B53281CF33DE400E38EFB /* CellWithIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		958B52FE1CF2FDC000E38EFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		958B53001CF2FDC000E38EFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		958B53011CF2FDC000E38EFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		958B53031CF2FDC000E38EFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		958B53041CF2FDC000E38EFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		958B53071CF2FDC000E38EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		958B53091CF2FDC000E38EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958B530C1CF2FDC000E38EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958B530E1CF2FDC000E38EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958B53141CF3298500E38EFB /* CellularObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellularObject.h; sourceTree = "<group>"; };
+		958B53151CF3298500E38EFB /* CellularObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellularObject.m; sourceTree = "<group>"; };
+		958B53171CF329CA00E38EFB /* CellularTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellularTableVC.h; sourceTree = "<group>"; };
+		958B53181CF329CA00E38EFB /* CellularTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellularTableVC.m; sourceTree = "<group>"; };
+		958B531A1CF32B7800E38EFB /* CellWithSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithSwitchView.h; sourceTree = "<group>"; };
+		958B531B1CF32B7800E38EFB /* CellWithSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithSwitchView.m; sourceTree = "<group>"; };
+		958B53201CF32DEC00E38EFB /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		958B53211CF32DEC00E38EFB /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		958B53271CF33DE400E38EFB /* CellWithIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithIndicator.h; sourceTree = "<group>"; };
+		958B53281CF33DE400E38EFB /* CellWithIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +70,10 @@
 		958B52FC1CF2FDC000E38EFB /* TrialAppZET */ = {
 			isa = PBXGroup;
 			children = (
-				958B53001CF2FDC000E38EFB /* AppDelegate.h */,
-				958B53011CF2FDC000E38EFB /* AppDelegate.m */,
-				958B53031CF2FDC000E38EFB /* ViewController.h */,
-				958B53041CF2FDC000E38EFB /* ViewController.m */,
+				958B531D1CF32CDA00E38EFB /* Model */,
+				958B531E1CF32CE400E38EFB /* Views */,
+				958B531F1CF32CFD00E38EFB /* Controller */,
 				958B53061CF2FDC000E38EFB /* Main.storyboard */,
-				958B53091CF2FDC000E38EFB /* Assets.xcassets */,
-				958B530B1CF2FDC000E38EFB /* LaunchScreen.storyboard */,
-				958B530E1CF2FDC000E38EFB /* Info.plist */,
 				958B52FD1CF2FDC000E38EFB /* Supporting Files */,
 			);
 			path = TrialAppZET;
@@ -74,9 +82,53 @@
 		958B52FD1CF2FDC000E38EFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				958B53091CF2FDC000E38EFB /* Assets.xcassets */,
+				958B530B1CF2FDC000E38EFB /* LaunchScreen.storyboard */,
+				958B530E1CF2FDC000E38EFB /* Info.plist */,
 				958B52FE1CF2FDC000E38EFB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958B531D1CF32CDA00E38EFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				958B53141CF3298500E38EFB /* CellularObject.h */,
+				958B53151CF3298500E38EFB /* CellularObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		958B531E1CF32CE400E38EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				958B53171CF329CA00E38EFB /* CellularTableVC.h */,
+				958B53181CF329CA00E38EFB /* CellularTableVC.m */,
+				958B53261CF33D8F00E38EFB /* Cell Views */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		958B531F1CF32CFD00E38EFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				958B53201CF32DEC00E38EFB /* Storage.h */,
+				958B53211CF32DEC00E38EFB /* Storage.m */,
+				958B53001CF2FDC000E38EFB /* AppDelegate.h */,
+				958B53011CF2FDC000E38EFB /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		958B53261CF33D8F00E38EFB /* Cell Views */ = {
+			isa = PBXGroup;
+			children = (
+				958B531A1CF32B7800E38EFB /* CellWithSwitchView.h */,
+				958B531B1CF32B7800E38EFB /* CellWithSwitchView.m */,
+				958B53271CF33DE400E38EFB /* CellWithIndicator.h */,
+				958B53281CF33DE400E38EFB /* CellWithIndicator.m */,
+			);
+			name = "Cell Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958B53051CF2FDC000E38EFB /* ViewController.m in Sources */,
+				958B531C1CF32B7800E38EFB /* CellWithSwitchView.m in Sources */,
+				958B53161CF3298500E38EFB /* CellularObject.m in Sources */,
+				958B53191CF329CA00E38EFB /* CellularTableVC.m in Sources */,
+				958B53291CF33DE400E38EFB /* CellWithIndicator.m in Sources */,
 				958B53021CF2FDC000E38EFB /* AppDelegate.m in Sources */,
 				958B52FF1CF2FDC000E38EFB /* main.m in Sources */,
+				958B53221CF32DEC00E38EFB /* Storage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +356,7 @@
 				958B53131CF2FDC000E38EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
