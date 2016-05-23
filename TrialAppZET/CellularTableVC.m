@@ -16,6 +16,7 @@
     
     // initialise storage
     self.storage = [[Storage alloc] init];
+    self.tableView.allowsSelection = NO;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
